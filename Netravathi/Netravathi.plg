@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Netravathi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Netravathi.res" /d "_DEBUG" /d "_AFXDLL" "D:\Maruthi_Kuvempu\Netravathi\Netravathi.rc"" 
+Creating temporary file "C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSP31.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Netravathi.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Maruthi_Kuvempu\Netravathi\Netravathi.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSP31.tmp" 
+Creating temporary file "C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSP32.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Netravathi.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Maruthi_Kuvempu\Netravathi\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSP32.tmp" 
+Creating temporary file "C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSP33.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\output/Netravathi.pdb" /debug /machine:I386 /def:".\Netravathi.def" /out:"..\output/Netravathi.dll" /implib:"..\output/Netravathi.lib" /pdbtype:sept 
+.\Debug\Netravathi.obj
+.\Debug\StdAfx.obj
+.\Debug\Netravathi.res
+]
+Creating command line "link.exe @C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSP33.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Netravathi.cpp
+Linking...
+   Creating library ..\output/Netravathi.lib and object ..\output/Netravathi.exp
+
+
+
+<h3>Results</h3>
+Netravathi.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

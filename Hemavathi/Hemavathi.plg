@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Hemavathi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Hemavathi.res" /d "_DEBUG" /d "_AFXDLL" "D:\Maruthi_Kuvempu\Hemavathi\Hemavathi.rc"" 
+Creating temporary file "C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSPD7.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\output/Hemavathi.pdb" /debug /machine:I386 /def:".\Hemavathi.def" /out:"..\output/Hemavathi.dll" /implib:"..\output/Hemavathi.lib" /pdbtype:sept 
+.\Debug\Hemavathi.obj
+.\Debug\StdAfx.obj
+.\Debug\Hemavathi.res
+]
+Creating command line "link.exe @C:\DOCUME~1\MARUTH~1\LOCALS~1\Temp\RSPD7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+Hemavathi.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
